@@ -4,34 +4,10 @@ body {
     margin: 0 auto;
 }
 
-main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-}
-
 header {
     margin-top: 20px;
     display: flex;
     border-bottom: 5px solid white;
     color: white;
     margin-bottom: 40px;
-}
-
-.photo-container {
-    border: 3px solid white;
-    width: 200px; 
-    height: 150px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-    position: relative;
-}
-
-.day-counter {
-    position: absolute;
-    font-size: 2em;
-    text-align: center;
-    z-index: 1;
-    margin-left: 5px;
-   
 }
