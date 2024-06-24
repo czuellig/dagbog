@@ -8,9 +8,19 @@ body {
 header {
     margin-top: 20px;
     display: flex;
-    border-bottom: 5px solid white;
-    color: white;
+    border-bottom: 5px solid black;
+    color: black;
     margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: white;
+}
+
+p {
+    font-size: 1.2rem;
+    color: white;
 }
 
 .container {
@@ -48,10 +58,28 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-direction: column; */
     transform: translateY(-100%);
     transition: transform 250ms;
     padding: 50px;
     
+}
+
+#imgInfo {
+   margin-left: 20px;
+}
+
+.navButton {
+    transform: translateY(-50%);
+    background-color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.navButton:hover {
+    background-color: lightgray;
 }
 
 #selectedImage {
@@ -59,3 +87,4 @@ header {
     border-radius: 10px;
     cursor: pointer;
 }
+
