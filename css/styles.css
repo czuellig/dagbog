@@ -76,10 +76,14 @@ p {
     padding: 10px;
     cursor: pointer;
     margin-top: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
 .navButton:hover {
     background-color: lightgray;
+    scale: 1.05;
+    box-shadow: 3px 3px 10px black;
 }
 
 #selectedImage {
