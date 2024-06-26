@@ -68,3 +68,7 @@ selectedImage.addEventListener('click', (e) => {
       imgTitle.innerText = '';
       imgDescription.innerText = '';
 });
+
+function toggleAbout() {
+    document.getElementById('about-1').classList.toggle('active');
+}

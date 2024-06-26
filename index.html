@@ -3,14 +3,23 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/animations.css" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <link rel="stylesheet" href="/css/animations.css" />
     <title>dagbog175</title>
   </head>
   <body>
     <header>
-      <h1>dagbog175</h1>
-      <p id="name-tag">by Cédric Züllig</p>
+      <a href="index.html">
+        <div id="logo">
+          <h1>dagbog175</h1>
+          <p id="name-tag">by Cédric Züllig</p>
+        </div>
+      </a>
+      <nav>
+        <ul>
+          <li><button id="about-btn" onclick="toggleAbout()">About</button></li>
+        </ul>
+      </nav>
     </header>
     <main>
       <div class="container">
@@ -21,6 +30,19 @@
         <div id="imgInfo">
           <h2 id="imgTitle"></h2>
           <p id="imgDescription"></p>
+        </div>
+      </div>
+      <div class="about" id="about-1">
+        <div class="overlay"></div>
+        <div class="content">
+          <div class="close-btn" onclick="toggleAbout()">&times;</div>
+          <h1>Über das Projekt</h1>
+          <p color="black" id="about-text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Reprehenderit ratione veniam, quae, tempora eius eligendi enim at ut
+            a, tenetur minima! Voluptas ut molestias voluptatem porro facilis
+            expedita doloribus tempore.
+          </p>
         </div>
       </div>
     </main>
